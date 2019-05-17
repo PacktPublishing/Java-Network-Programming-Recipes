@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="advfc" target="1.9" />
+      <module name="ircbt" target="1.9" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

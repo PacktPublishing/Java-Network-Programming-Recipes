@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="filcl" target="1.9" />
+      <module name="mttes" target="1.9" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

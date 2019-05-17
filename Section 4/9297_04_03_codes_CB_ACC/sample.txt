@@ -1,0 +1,10 @@
+      read(5,501) IA,IB,IC                                                  0001
+  501 format(3I5)                                                           0002
+      if(IA.EQ.0 .OR. IB.EQ.0 .OR. IC.EQ.0) stop 1                          0003
+      S = (IA + IB + IC) / 2.0                                              0006
+      AREA = sqrt( S * (S - IA) * (S - IB) * (S - IC) )                     0005
+      write(6,601) IA,IB,IC,AREA                                            0004
+  601 FORMAT(4H A= ,I5,5H  B= ,I5,5H  C= ,I5,8H  AREA= ,F10.2,              0007
+     $13H square UNITS)                                                     0008
+      stop                                                                  0009
+      END                                                                   0010
